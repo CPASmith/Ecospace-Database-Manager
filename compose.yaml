@@ -1,0 +1,31 @@
+services:
+  database:
+    image: postgres:18
+    environment:
+      POSTGRES_DB: ecospace
+      POSTGRES_USER: ecospace
+      POSTGRES_PASSWORD: local_demo_only
+    volumes:
+      - postgres_data:/var/lib/postgresql
+      - ./db_init:/docker-entrypoint-initdb.d:ro
+      - ./data:/ecospace-data:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ecospace -d ecospace"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+  app:
+    build: .
+    depends_on:
+      database:
+        condition: service_healthy
+    environment:
+      ECOSPACE_DB_HOST: database
+      ECOSPACE_DB_PORT: "5432"
+      ECOSPACE_DB_NAME: ecospace
+      ECOSPACE_DB_USER: ecospace
+      ECOSPACE_DB_PASSWORD: local_demo_only
+    ports:
+      - "127.0.0.1:8501:8501"
+volumes:
+  postgres_data:

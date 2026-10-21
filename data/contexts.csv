@@ -1,0 +1,73 @@
+id;tiering;feeding;motility;size;main_biomineralisation
+1;Neuston;;;;
+2;Pelagic;;;;
+3;Benthic surficial;;;;
+4;Semi-infaunal;;;;
+5;Infaunal;;;;
+6;;Predator;;;
+7;;Suspension;;;
+8;;Grazing;;;
+9;;Deposit feeder;;;
+10;;Autotroph;;;
+11;;Parasite;;;
+12;;;Active motile;;
+13;;;Passive motile;;
+14;;;Facultative;;
+15;;;Non-motile;;
+16;;;;Nano (< 20 µm);
+17;;;;Micro (20 µm - 2 mm);
+18;;;;Meso (2 mm - 2 cm);
+19;;;;Macro, small (2 cm - 20 cm);
+20;;;;Macro, medium low (20 cm - 1 m);
+21;;;;Macro, medium hight (1 m - 5 m);
+22;;;;Mega (> 5 m);
+23;;;;;Phosphate
+24;;;;;Silica
+25;;;;;Calcite
+26;;;;;Aragonite
+27;;;;;None
+28;Infaunal;Deposit feeder;Non-motile;Macro - Small (2 cm - 20 cm);Aragonite
+29;Infaunal;Deposit feeder;Non-motile;Meso (2 mm - 2 cm);Aragonite
+38;Infaunal;chemosymbiotic;Non-motile;Meso (2 mm - 2 cm);Aragonite
+39;Infaunal;chemosymbiotic;Non-motile;Macro - Small (2 cm - 20 cm);Aragonite
+40;Infaunal;Suspension;Non-motile;Macro - Small (2 cm - 20 cm);Bimineralic (calcite & aragonite)
+41;Benthic surficial;Suspension;Non-motile;Meso (2 mm - 2 cm);Bimineralic (calcite & aragonite)
+43;Benthic surficial;Suspension;Non-motile;Macro - Small (2 cm - 20 cm);Bimineralic (calcite & aragonite)
+47;Semi-infaunal;Suspension;Non-motile;Macro - Small (2 cm - 20 cm);Bimineralic (calcite & aragonite)
+57;Semi-infaunal;Suspension;Non-motile;Meso (2 mm - 2 cm);Aragonite
+61;Benthic surficial;Suspension;Non-motile;Macro - Small (2 cm - 20 cm);Aragonite
+63;Benthic surficial;Suspension;Non-motile;Meso (2 mm - 2 cm);Aragonite
+65;Infaunal;Suspension;Non-motile;Macro - Small (2 cm - 20 cm);Aragonite
+70;Semi-infaunal;Suspension;Non-motile;Macro - Small (2 cm - 20 cm);Aragonite
+77;Semi-infaunal;Suspension;Non-motile;Meso (2 mm - 2 cm);Bimineralic (calcite & aragonite)
+80;Pelagic;Suspension;Non-motile;Macro - Small (2 cm - 20 cm);Bimineralic (calcite & aragonite)
+105;Semi-infaunal;Suspension;Non-motile;Macro - Medium low (20 cm - 1 m);Bimineralic (calcite & aragonite)
+118;Benthic surficial;Suspension;Facultative;Macro - Small (2 cm - 20 cm);Bimineralic (calcite & aragonite)
+124;Benthic surficial;Suspension;Non-motile;Macro - Small (2 cm - 20 cm);Calcite
+142;Benthic surficial;Suspension;Non-motile;Micro (20 µm - 2 mm);Bimineralic (calcite & aragonite)
+158;Benthic surficial;Suspension;Non-motile;Meso (2 mm - 2 cm);Calcite
+175;Benthic surficial;Suspension;Facultative;Macro - Small (2 cm - 20 cm);Aragonite
+198;Infaunal;Suspension;Non-motile;Meso (2 mm - 2 cm);Aragonite
+279;Infaunal;Suspension;Non-motile;Macro - Small (2 cm - 20 cm);Calcite
+289;Infaunal;Suspension;Non-motile;Micro (20 µm - 2 mm);Aragonite
+312;;;;;Bimineralic (calcite & aragonite)
+313;Semi-infaunal;chemosymbiotic;Non-motile;Macro - Small (2 cm - 20 cm);Aragonite
+334;Infaunal;Suspension;Non-motile;Macro - Medium low (20 cm - 1 m);Aragonite
+344;Infaunal;Suspension;Non-motile;Nano (< 20 µm);Aragonite
+347;Benthic surficial;chemosymbiotic;Non-motile;Macro - Small (2 cm - 20 cm);Aragonite
+348;Benthic surficial;chemosymbiotic;Non-motile;Meso (2 mm - 2 cm);Aragonite
+370;Benthic surficial;Suspension;Facultative;Meso (2 mm - 2 cm);Bimineralic (calcite & aragonite)
+385;Benthic surficial;Suspension;Non-motile;Macro - Medium low (20 cm - 1 m);Bimineralic (calcite & aragonite)
+406;Benthic surficial;Suspension;Non-motile;Micro (20 Âµm - 2 mm);Bimineralic (calcite & aragonite)
+471;Infaunal;Suspension;Non-motile;Meso (2 mm - 2 cm);Bimineralic (calcite & aragonite)
+480;Infaunal;Deposit feeder;Non-motile;Meso (2 mm - 2 cm);Calcite
+481;Infaunal;Deposit feeder;Non-motile;Meso (2 mm - 2 cm);Bimineralic (calcite & aragonite)
+486;Infaunal;Deposit feeder;Non-motile;Macro - Small (2 cm - 20 cm);Bimineralic (calcite & aragonite)
+511;Benthic surficial;chemosymbiotic;Non-motile;Macro - Medium low (20 cm - 1 m);Bimineralic (calcite & aragonite)
+512;Benthic surficial;chemosymbiotic;Non-motile;Macro - Medium low (20 cm - 1 m);Calcite
+514;Semi-infaunal;chemosymbiotic;Non-motile;Macro - Small (2 cm - 20 cm);Bimineralic (calcite & aragonite)
+524;Benthic surficial;Suspension;Non-motile;Macro - Medium low (20 cm - 1 m);Aragonite
+528;Benthic surficial;chemosymbiotic;Non-motile;Macro - Small (2 cm - 20 cm);Bimineralic (calcite & aragonite)
+544;Semi-infaunal;chemosymbiotic;Non-motile;Macro - Medium low (20 cm - 1 m);Aragonite
+545;Semi-infaunal;Suspension;Non-motile;Macro - Medium low (20 cm - 1 m);Aragonite
+585;Benthic surficial;chemosymbiotic;Non-motile;Macro - Medium low (20 cm - 1 m);Aragonite

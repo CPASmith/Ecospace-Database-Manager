@@ -1,0 +1,53 @@
+id;context_id;question;value
+1;2;Bathymetric range?;Narrow (single zone only)
+2;2;Bathymetric range?;Moderate (multiple adjacent zones)
+3;2;Bathymetric range?;Broad (all major zones)
+4;5;Living in the top 5 cm of the sediment or deeper?;In the top 5 cm
+5;5;Living in the top 5 cm of the sediment or deeper?;Deeper
+6;5;Substrate induration?;Hard substrate
+7;5;Substrate induration?;Soft Substrate
+8;4;Substrate induration?;Hard substrate
+9;4;Substrate induration?;Soft Substrate
+10;3;Substrate induration?;Hard substrate
+11;3;Substrate induration?;Soft Substrate
+12;6;Is this predator selective?;Selective
+13;6;Is this predator selective?;Non selective
+14;7;Suspension feeder actively influencing local flow (e.g.,  ciliary movement, pumping) to produce a feeding current or not?;Active suspension feeder
+15;7;Suspension feeder actively influencing local flow (e.g.,  ciliary movement, pumping) to produce a feeding current or not?;Passive suspension feeder
+16;7;Predominant prey type?;Zooplancton
+17;7;Predominant prey type?;Phytoplancton
+18;7;Predominant prey type?;Both
+19;7;Particle size preference?;Nano (< 20 µm)
+20;7;Particle size preference?;Micro (20 µm - 2 mm)
+21;7;Particle size preference?;Meso (2 mm - 2 cm)
+22;7;Particle size preference?;Macro (>2 cm)
+23;8;Predominant prey type?;Algae (macro or turf)
+24;8;Predominant prey type?;Coral
+25;8;Predominant prey type?;Microbial films
+26;8;Predominant prey type?;Mixed / generalist
+27;9;Predominant deposit-feeding strategy?;Mining
+28;9;Predominant deposit-feeding strategy?;Surficial
+29;9;Predominant deposit-feeding strategy?;Scavenging
+30;10;Phototroph or chemotroph?;Phototroph
+31;10;Phototroph or chemotroph?;Chemotroph
+32;11;Internal or external parasite?;Internal
+33;11;Internal or external parasite?;External
+34;11;Host?;Any Bivalvia
+35;11;Host?;Any Crustacea
+36;12;Moves fast and relatively unencumbered (e.g., swimming, walking), or rather slowly (e.g., crawling, pedal locomotion)?;Fast
+37;12;Moves fast and relatively unencumbered (e.g., swimming, walking), or rather slowly (e.g., crawling, pedal locomotion)?;Slow
+38;14;Lives mostly attached or free-lying?;Attached
+40;15;Lives attached or free-lying?;Attached
+42;25;Biomineral location?;Internal
+43;25;Biomineral location?;External
+44;26;Biomineral location?;Internal
+45;26;Biomineral location?;External
+46;27;Support without biomineralization?;Chitin
+47;27;Support without biomineralization?;Cartilage
+48;27;Support without biomineralization?;None
+39;14;Lives mostly attached or free-lying?;Free
+41;15;Lives attached or free-lying?;Free
+49;312;Biomineral location?;Internal
+50;312;Biomineral location?;External
+52;15;Lives attached or free-lying?;Epizoon
+53;15;Lives attached or free-lying?;Cemented
