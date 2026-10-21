@@ -10,9 +10,11 @@ Requirements: Docker Desktop (with Docker Compose), downloadable at https://www.
 -->2. Open a terminal and navigate to the extracted folder (the one containing compose.yaml). For example:
 
 Windows (PowerShell):
-	cd "C:\path\to\Ecospace-Database-Manage"
-macOS (Terminal):
-	cd "/path/to/Ecospace-Database-Manage"
+	cd "C:\path_to\Ecospace-Database-Manager-main\Ecospace-Database-Manager-main"
+
+MacOS (Terminal):
+	cd "\path_to\Ecospace-Database-Manager-main\Ecospace-Database-Manager-main"
+
 Replace the example path with the actual location of the extracted folder.
 
 -->3. If Docker Desktop is not already installed, download and install it using the link above. Restart your computer if prompted.
